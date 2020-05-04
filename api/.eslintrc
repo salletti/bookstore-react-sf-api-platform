@@ -1,0 +1,25 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "semi": "error",
+        "react/prop-types": 0,
+        "no-undef": "off",
+        "space-before-function-paren": "error",
+        "comma-dangle": "off",
+        "indent": "off",
+        "no-trailing-spaces": "off"
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "plugins": [
+        "react"
+    ]
+}

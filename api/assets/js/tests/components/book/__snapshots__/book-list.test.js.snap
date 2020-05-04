@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`item render correctly 1`] = `
+<div
+  className="col-sm-8 mx-auto"
+>
+  <ul
+    className="list-group"
+  >
+    <li
+      id={1}
+    >
+      title 1
+    </li>
+    <li
+      id={2}
+    >
+      title 2
+    </li>
+  </ul>
+</div>
+`;

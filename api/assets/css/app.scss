@@ -1,0 +1,66 @@
+@import "~bootstrap/scss/bootstrap";
+
+//general
+body {
+    background-color: lightgray;
+}
+
+.active > a {
+    color: white;
+}
+
+//navbar
+.nav-item {
+    margin-right: 20px;
+}
+
+.demo-logo {
+    height: 30px;
+}
+
+//book list
+.image-item {
+    max-width: 40px;
+}
+
+//search
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-pink input.form-control[type=text] {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+//pagination
+.pagination {
+    margin-top: 20px;
+}
+
+//book page
+.book-detail {
+    margin-bottom: 20px;
+}
+
+//cart
+.cart-book-image {
+    max-width: 40px;
+}
+
+.add-cart-button > div {
+    width: 100%;
+}
+
+.add-cart-button-confirmation {
+    margin-top: 10px;
+    transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    opacity: 0;
+}
+
+//error page
+.error-image {
+    max-width: 250px;
+}

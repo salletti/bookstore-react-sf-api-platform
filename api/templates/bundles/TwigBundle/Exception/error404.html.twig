@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1 class="display-4">Oops! 404</h1>
+        <p class="lead">Page Not Found</p>
+        <hr class="my-4">
+        <p>
+            <img src="{{ asset('img/error.png') }}" alt="error" class="error-image"/>
+        </p>
+        <a class="btn btn-primary btn-lg" href="{{ path('bookstore_home') }}" role="button"><i class="fas fa-home">&nbsp;</i>Home</a>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+{% endblock %}
